@@ -1,0 +1,30 @@
+void main() {
+  var math = 85;
+  print("your math marks is $math");
+  var phy = 84;
+  print("your phy marks is $phy");
+  var chem = 98;
+  print("your chem marks is $chem");
+  var stat = 86;
+  print("your stat marks is $stat");
+  var urdu = 76;
+  print("your urdu marks is $urdu");
+  var total = 500;
+  num obtainmarks = math + phy + chem + stat + urdu;
+  print("your obtainmarks is $obtainmarks");
+  num percentage = (obtainmarks / total) * 100;
+  print("your percentage is $percentage");
+
+  if (percentage >= 80) {
+    print("your grade is A+");
+    print("you have cleared BSC PASS FROM UNIVERSITY OF KARACHI");
+  } else if (percentage >= 70) {
+    print("your grade is A");
+  } else if (percentage >= 60) {
+    print("your grade is B");
+  } else if (percentage >= 50) {
+    print("your grade is C");
+  } else if (percentage > 40) {
+    print("your grade is FAIL");
+  }
+}
